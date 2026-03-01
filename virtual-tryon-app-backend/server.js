@@ -16,7 +16,7 @@ app.use(express.json());
 app.use(cors());
 
 // ================= SERVER CONFIG =================
-const SERVER_IP = "10.102.140.49"; // change if needed
+const SERVER_IP = "192.168.137.1"; // change if needed
 const PORT = 5000;
 
 // ================= MONGODB =================
